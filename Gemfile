@@ -1,9 +1,9 @@
 source 'http://rubygems.org'
 
 gem "rails", "~> 3.0.11"
-gem "sqlite3-ruby"
+gem "mysql2", "0.2.6"
+gem "delayed_job", "~> 2.1.4"
 gem "haml"
-gem "delayed_job"
 gem "stringex"
 gem "open4"
 gem "json"
